@@ -12,6 +12,7 @@
 
     <!-- Fontawesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,7 +24,36 @@
 
 </head>
 <body>
-<h1>Color mania application</h1>
+
+
+<div class="container">
+    <div class="row">
+        <h1>Color mania application</h1>
+    </div>
+    <div class="row">
+        <div class="color-display-container" id="colorContainer"></div>
+    </div>
+    <div class="row ">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 delay-top">
+            <button class="btn btn-success btn-block" id="btnStart">Start</button>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 delay-top">
+            <button class="btn btn-warning btn-block" id="btnStop">Stop</button>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 delay-top">
+            <button class="btn btn-warning btn-block" id="btnStopDiff">Stop Diff</button>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 delay-top">
+            <button class="btn btn-warning btn-block" id="btnStopDiff2">Stop Diff 2</button>
+        </div>
+
+
+    </div>
+</div>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>

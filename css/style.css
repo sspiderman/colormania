@@ -1,0 +1,13 @@
+.color-display-container{
+    width: 100%;
+    height: 150px;
+    border: 1px solid grey;
+}
+
+h1{
+    text-align: center;
+}
+
+.delay-top{
+    margin-top: 30px;
+}
